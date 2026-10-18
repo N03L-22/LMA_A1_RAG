@@ -154,5 +154,83 @@
     "answer": "A team needs a minimum of seven players for the match to continue. A match may not start or continue if either team has fewer than seven players.",
     "llm_seconds": 5.36,
     "model": "gemini-3.7-flash"
+  },
+  "q7|baseline": {
+    "qid": "q7",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0075",
+      "c0084",
+      "c0129"
+    ],
+    "prompt_sha": "2a00d46f4aa8",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 5.41,
+    "model": "gemini-3.7-flash"
+  },
+  "q7|rerank": {
+    "qid": "q7",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0180",
+      "c0075",
+      "c0084"
+    ],
+    "prompt_sha": "02856e561492",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 3.36,
+    "model": "gemini-3.7-flash"
+  },
+  "q8|baseline": {
+    "qid": "q8",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0059",
+      "c0036",
+      "c0063"
+    ],
+    "prompt_sha": "00bd2fd89af3",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 4.45,
+    "model": "gemini-3.7-flash"
+  },
+  "q8|rerank": {
+    "qid": "q8",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0059",
+      "c0030",
+      "c0063"
+    ],
+    "prompt_sha": "a6caaed8f2d6",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 5.13,
+    "model": "gemini-3.7-flash"
+  },
+  "q9|baseline": {
+    "qid": "q9",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0107",
+      "c0049",
+      "c0155"
+    ],
+    "prompt_sha": "5a00358eb3e2",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 5.82,
+    "model": "gemini-3.7-flash"
+  },
+  "q9|rerank": {
+    "qid": "q9",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0107",
+      "c0108",
+      "c0126"
+    ],
+    "prompt_sha": "225f52cc4077",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 8.64,
+    "model": "gemini-3.7-flash"
   }
 }

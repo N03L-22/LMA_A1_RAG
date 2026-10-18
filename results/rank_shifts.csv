@@ -5,3 +5,6 @@ q3,negation,c0111,8,1,False,True,True
 q4,vocabulary gap,c0041,6,1,False,True,True
 q5,control,c0059,1,1,True,True,False
 q6,control,c0043,1,1,True,True,False
+q7,other,c0077,6,5,False,False,False
+q8,not covered,,,,False,False,False
+q9,vocabulary gap,c0108,10,2,False,True,True
