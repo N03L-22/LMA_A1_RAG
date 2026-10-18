@@ -1,0 +1,17 @@
+# Source document
+
+| | |
+|---|---|
+| Document | *Laws of the Game 2024/25* |
+| Publisher | The International Football Association Board (IFAB) |
+| File | `Laws-of-the-Game-2024_25.pdf` |
+| Pages | 116 |
+| Where from | IFAB website, https://www.theifab.com (Laws of the Game documents). Check the exact link before submitting |
+| Committed to the repo? | No. The PDF is listed in `.gitignore` because it is not ours to redistribute. Download it from the publisher and place it in this folder |
+
+## Notes for chunking
+
+- Text is extractable (not a scan). Plain `pdftotext` or `pypdf` extraction works.
+- Roughly half of the extracted lines are short fragments from diagrams, captions and headings.
+- Leave out the front matter, the glossary and the "what changed" summary. They duplicate real rules and
+  would add near-identical chunks.

@@ -1,0 +1,11 @@
+pypdf
+faiss-cpu
+sentence-transformers==3.4.1
+transformers==4.57.6
+google-genai
+python-dotenv
+numpy
+pandas
+jupyter
+nbconvert
+ipykernel

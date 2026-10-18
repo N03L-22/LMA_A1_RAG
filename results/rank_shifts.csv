@@ -1,0 +1,7 @@
+id,category,gold,bi_rank,ce_rank,in_top3_baseline,in_top3_rerank,promoted
+q1,keyword trap,c0099,5,1,False,True,True
+q2,exception,c0138,9,1,False,True,True
+q3,negation,c0111,8,1,False,True,True
+q4,vocabulary gap,c0041,6,1,False,True,True
+q5,control,c0059,1,1,True,True,False
+q6,control,c0043,1,1,True,True,False

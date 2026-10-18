@@ -1,0 +1,8 @@
+# environments and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+# the source PDF is the publisher's, not ours to redistribute (see data/SOURCE.md)
+data/*.pdf

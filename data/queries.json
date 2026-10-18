@@ -1,0 +1,44 @@
+[
+  {
+    "id": "q1",
+    "category": "keyword trap",
+    "question": "Can a goal be scored directly from a kick-off?",
+    "gold_chunks": ["c0099"],
+    "gold_answer": "Yes, against the opponents. If the ball goes directly into the kicker's own goal, a corner kick is awarded to the opponents."
+  },
+  {
+    "id": "q2",
+    "category": "exception",
+    "question": "Is a goalkeeper sent off for handling the ball inside their own penalty area to stop a goal?",
+    "gold_chunks": ["c0138"],
+    "gold_answer": "No. A deliberate handball that denies a goal or an obvious goal-scoring opportunity is a sending-off wherever it happens, except for a goalkeeper within their own penalty area."
+  },
+  {
+    "id": "q3",
+    "category": "negation",
+    "question": "A player is in an offside position but does not touch the ball; is it an offence?",
+    "gold_chunks": ["c0111"],
+    "gold_answer": "No. It is not an offence to be in an offside position. A player is penalised only on becoming involved in active play."
+  },
+  {
+    "id": "q4",
+    "category": "vocabulary gap",
+    "question": "What if the ball bursts during a match?",
+    "gold_chunks": ["c0041"],
+    "gold_answer": "The ball has become defective: play is stopped and restarted with a dropped ball (a restart is retaken if it happened at a kick-off, goal kick, corner kick, free kick, penalty kick or throw-in)."
+  },
+  {
+    "id": "q5",
+    "category": "control",
+    "question": "Can a player wear a ring or a bracelet during a match?",
+    "gold_chunks": ["c0059"],
+    "gold_answer": "No. All items of jewellery, including rings and bracelets, are forbidden and must be removed; covering them with tape is not permitted."
+  },
+  {
+    "id": "q6",
+    "category": "control",
+    "question": "What is the minimum number of players a team needs for the match to continue?",
+    "gold_chunks": ["c0043"],
+    "gold_answer": "Seven. A match may not start or continue if either team has fewer than seven players."
+  }
+]

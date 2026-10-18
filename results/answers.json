@@ -1,0 +1,158 @@
+{
+  "q1|baseline": {
+    "qid": "q1",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0167",
+      "c0103",
+      "c0170"
+    ],
+    "prompt_sha": "634dcf43b9a2",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 4.0,
+    "model": "gemini-3.7-flash"
+  },
+  "q1|rerank": {
+    "qid": "q1",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0099",
+      "c0167",
+      "c0154"
+    ],
+    "prompt_sha": "b3eff6b1fda6",
+    "answer": "Yes, a goal may be scored directly against the opponents from the kick-off. However, if the ball directly enters the kicker’s goal, a corner kick is awarded to the opponents.",
+    "llm_seconds": 3.25,
+    "model": "gemini-3.7-flash"
+  },
+  "q2|baseline": {
+    "qid": "q2",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0155",
+      "c0134",
+      "c0107"
+    ],
+    "prompt_sha": "f3fde29bf5b7",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 2.59,
+    "model": "gemini-3.7-flash"
+  },
+  "q2|rerank": {
+    "qid": "q2",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0138",
+      "c0126",
+      "c0155"
+    ],
+    "prompt_sha": "8906d9fed282",
+    "answer": "No, a goalkeeper is not sent off for handling the ball within their own penalty area. According to the context, while a player is sent off for denying a goal by committing a deliberate handball offence, an exception is explicitly made for a goalkeeper within their own penalty area.",
+    "llm_seconds": 4.81,
+    "model": "gemini-3.7-flash"
+  },
+  "q3|baseline": {
+    "qid": "q3",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0117",
+      "c0118",
+      "c0114"
+    ],
+    "prompt_sha": "639871681b17",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 3.83,
+    "model": "gemini-3.7-flash"
+  },
+  "q3|rerank": {
+    "qid": "q3",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0111",
+      "c0116",
+      "c0112"
+    ],
+    "prompt_sha": "3947e83e6d35",
+    "answer": "Merely being in an offside position is not an offence. However, a player who does not touch the ball can still commit an offside offence if they become involved in active play by interfering with an opponent, such as by obstructing their line of vision, challenging them for the ball, or making an action that impacts their ability to play the ball.",
+    "llm_seconds": 5.77,
+    "model": "gemini-3.7-flash"
+  },
+  "q4|baseline": {
+    "qid": "q4",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0101",
+      "c0078",
+      "c0079"
+    ],
+    "prompt_sha": "fbcaa99b2358",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 3.98,
+    "model": "gemini-3.7-flash"
+  },
+  "q4|rerank": {
+    "qid": "q4",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0041",
+      "c0079",
+      "c0102"
+    ],
+    "prompt_sha": "4260c9ead374",
+    "answer": "If the ball bursts (becomes defective), play is stopped and restarted with a dropped ball. If this occurs at a restart such as a kick-off, free kick, or penalty kick, the restart is retaken. Additionally, the ball may not be changed during the match without the referee’s permission.",
+    "llm_seconds": 17.5,
+    "model": "gemini-3.7-flash"
+  },
+  "q5|baseline": {
+    "qid": "q5",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0059",
+      "c0082",
+      "c0062"
+    ],
+    "prompt_sha": "34908d000408",
+    "answer": "No, a player cannot wear a ring or a bracelet during a match. All items of jewellery are forbidden and must be removed, and using tape to cover them is not permitted.",
+    "llm_seconds": 9.73,
+    "model": "gemini-3.7-flash"
+  },
+  "q5|rerank": {
+    "qid": "q5",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0059",
+      "c0062",
+      "c0084"
+    ],
+    "prompt_sha": "f3da9550d8cd",
+    "answer": "No, a player cannot wear a ring or a bracelet during a match. All items of jewellery, including rings and bracelets, are forbidden and must be removed. Using tape to cover jewellery is also not permitted.",
+    "llm_seconds": 13.22,
+    "model": "gemini-3.7-flash"
+  },
+  "q6|baseline": {
+    "qid": "q6",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0043",
+      "c0044",
+      "c0045"
+    ],
+    "prompt_sha": "724cfa76fa7f",
+    "answer": "The minimum number of players a team needs for the match to continue is seven players. A match may not start or continue if either team has fewer than seven players.",
+    "llm_seconds": 4.69,
+    "model": "gemini-3.7-flash"
+  },
+  "q6|rerank": {
+    "qid": "q6",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0043",
+      "c0110",
+      "c0106"
+    ],
+    "prompt_sha": "4524a7ac7f3c",
+    "answer": "A team needs a minimum of seven players for the match to continue. A match may not start or continue if either team has fewer than seven players.",
+    "llm_seconds": 5.36,
+    "model": "gemini-3.7-flash"
+  }
+}

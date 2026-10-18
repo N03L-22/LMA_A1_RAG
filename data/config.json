@@ -1,0 +1,31 @@
+{
+  "source_pdf": "data/Laws-of-the-Game-2024_25.pdf",
+  "bi_encoder": "all-MiniLM-L6-v2",
+  "cross_encoder": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "llm": {
+    "backend": "gemini-api",
+    "model": "gemini-3.7-flash",
+    "temperature": 0,
+    "api_key_env": "GEMINI_API_KEY",
+    "min_seconds_between_calls": 6,
+    "max_retries": 3,
+    "max_output_tokens": 2048
+  },
+  "retrieval": {
+    "top_k_candidates": 10,
+    "top_n_context": 3,
+    "similarity": "cosine"
+  },
+  "chunking": {
+    "max_words": 160,
+    "min_words": 40
+  },
+  "include_sections": [
+    "Law 1", "Law 2", "Law 3", "Law 4", "Law 5", "Law 6", "Law 7", "Law 8", "Law 9",
+    "Law 10", "Law 11", "Law 12", "Law 13", "Law 14", "Law 15", "Law 16", "Law 17",
+    "Notes and modifications",
+    "VAR protocol",
+    "Practical guidelines for match officials"
+  ],
+  "seed": 42
+}
