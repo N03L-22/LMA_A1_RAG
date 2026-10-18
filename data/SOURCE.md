@@ -6,7 +6,7 @@
 | Publisher | The International Football Association Board (IFAB) |
 | File | `Laws-of-the-Game-2024_25.pdf` |
 | Pages | 116 |
-| Where from | IFAB website, https://www.theifab.com (Laws of the Game documents). Check the exact link before submitting |
+| Where from | IFAB download server: https://downloads.theifab.com/downloads/laws-of-the-game-2024-25?l=en (English, effective 1 July 2024; the PDF's own cover page points to www.theifab.com). The IFAB has since published a newer edition, so this file is the 2024/25 one |
 | Committed to the repo? | No. The PDF is listed in `.gitignore` because it is not ours to redistribute. Download it from the publisher and place it in this folder |
 
 ## Notes for chunking

@@ -28,19 +28,19 @@ recomputed on every run, so a fresh kernel always works.
 | `data/chunks.jsonl` | The chunks, **frozen**: chunk ids are what the hand-labelled queries refer to |
 | `data/queries.json` | The test queries with their gold chunk and gold answer (4 failure-type queries, 2 controls) |
 | `data/SOURCE.md` | Where the PDF is from and how it was cleaned. The PDF itself is not committed |
-| `results/` | Written by the notebook: `answers.json` (Answer 1 and 2 per query), `rank_shifts.csv`, `latency.csv` |
+| `results/` | Written by the notebook: `answers.json` (Answer 1 and 2 per query), `rank_shifts.csv`, `retrieval_metrics.csv` (Recall@3 and MRR), `latency.csv` |
 
 ## Models
 
 | Role | Model |
 |---|---|
 | Answer LLM | Gemini API `gemini-3.7-flash`, temperature 0 |
-| Bi-Encoder | `all-MiniLM-L6-v2` (reads at most 256 word-pieces) |
+| Bi-Encoder | `all-MiniLM-L6-v2` (reads at most 256 tokens; its vectors have 384 numbers) |
 | Cross-Encoder | `cross-encoder/ms-marco-MiniLM-L-6-v2` |
 
 ## Chunking
 
 230 chunks, at most 160 words each, built from Laws 1–17, the notes and modifications, the VAR protocol
 and the practical guidelines for match officials. Chunks never cross a Law boundary or a numbered
-heading. One chunk (Law 1, field markings) is 2 word-pieces over the Bi-Encoder limit, so its last word is
+heading. One chunk (Law 1, field markings) is 2 tokens over the Bi-Encoder limit, so its last word is
 not embedded.
