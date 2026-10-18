@@ -77,5 +77,59 @@
       "c0108"
     ],
     "gold_answer": "Yes, in a penalty shoot-out an eligible player may change places with the goalkeeper, and a goalkeeper who is still eligible can take a kick. All eligible players except the kicker and the two goalkeepers wait in the centre circle."
+  },
+  {
+    "id": "q10",
+    "category": "partly covered",
+    "question": "How many red cards can be given to a team in a match and in a tournament?",
+    "gold_chunks": [
+      "c0043"
+    ],
+    "gold_answer": "The Laws set no limit on the number of red cards. They say only that a match may not start or continue if a team has fewer than seven players. Suspensions across a tournament are set by competition rules, which these Laws do not give."
+  },
+  {
+    "id": "q11",
+    "category": "negation",
+    "question": "Can the coach join for the penalty shoot-out?",
+    "gold_chunks": [
+      "c0107"
+    ],
+    "gold_answer": "No. During the penalty shoot-out only eligible players and match officials may remain on the field of play. A team official such as the coach may still be cautioned or sent off."
+  },
+  {
+    "id": "q12",
+    "category": "partly covered",
+    "question": "If a player is hurt by the ball, is the player who kicked it given a penalty?",
+    "gold_chunks": [
+      "c0078"
+    ],
+    "gold_answer": "Not automatically. A penalty needs an offence. If an injury is not the result of an offence, play is restarted with a dropped ball."
+  },
+  {
+    "id": "q13",
+    "category": "other",
+    "question": "What happens if a player removes their jersey after a goal?",
+    "gold_chunks": [
+      "c0135"
+    ],
+    "gold_answer": "The player must be cautioned (yellow card), even if the goal is disallowed. Removing the shirt, or covering the head with it, is a cautionable offence."
+  },
+  {
+    "id": "q14",
+    "category": "vocabulary gap",
+    "question": "Can a player change their jersey in the middle of a game?",
+    "gold_chunks": [
+      "c0069"
+    ],
+    "gold_answer": "Yes, by leaving the field of play to correct or change equipment. The equipment must be checked by a match official and the player may only re-enter with the referee's permission; entering without permission is a caution."
+  },
+  {
+    "id": "q15",
+    "category": "other",
+    "question": "If a ball went in and then came out, is it a goal?",
+    "gold_chunks": [
+      "c0103"
+    ],
+    "gold_answer": "Yes, if the whole of the ball passed over the goal line between the posts and under the crossbar and no offence was committed. If the referee signals a goal before the ball has wholly crossed the line, play restarts with a dropped ball."
   }
 ]

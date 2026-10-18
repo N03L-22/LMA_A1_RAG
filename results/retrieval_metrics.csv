@@ -1,5 +1,5 @@
-,All 8 answerable queries,6 non-control queries only
-"Recall@3, baseline",0.25,0.0
-"Recall@3, re-ranked",0.875,0.833
-"MRR, baseline",0.359,0.145
-"MRR, re-ranked",0.838,0.783
+,All 14 answerable queries,12 non-control queries only
+"Recall@3, baseline",0.429,0.333
+"Recall@3, re-ranked",0.786,0.75
+"MRR, baseline",0.419,0.322
+"MRR, re-ranked",0.693,0.642

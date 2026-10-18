@@ -232,5 +232,161 @@
     "answer": "The context does not contain the answer.",
     "llm_seconds": 8.64,
     "model": "gemini-3.7-flash"
+  },
+  "q10|baseline": {
+    "qid": "q10",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0084",
+      "c0043",
+      "c0045"
+    ],
+    "prompt_sha": "c4a3d9177f04",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 3.13,
+    "model": "gemini-3.7-flash"
+  },
+  "q10|rerank": {
+    "qid": "q10",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0043",
+      "c0129",
+      "c0044"
+    ],
+    "prompt_sha": "c79623700424",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 4.19,
+    "model": "gemini-3.7-flash"
+  },
+  "q11|baseline": {
+    "qid": "q11",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0107",
+      "c0105",
+      "c0110"
+    ],
+    "prompt_sha": "9dd96a6481a3",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 10.68,
+    "model": "gemini-3.7-flash"
+  },
+  "q11|rerank": {
+    "qid": "q11",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0107",
+      "c0106",
+      "c0105"
+    ],
+    "prompt_sha": "cde520ee688f",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 12.6,
+    "model": "gemini-3.7-flash"
+  },
+  "q12|baseline": {
+    "qid": "q12",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0154",
+      "c0158",
+      "c0156"
+    ],
+    "prompt_sha": "bbde5eb6823a",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 2.77,
+    "model": "gemini-3.7-flash"
+  },
+  "q12|rerank": {
+    "qid": "q12",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0170",
+      "c0156",
+      "c0077"
+    ],
+    "prompt_sha": "91f3a5ad9816",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 3.26,
+    "model": "gemini-3.7-flash"
+  },
+  "q13|baseline": {
+    "qid": "q13",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0057",
+      "c0135",
+      "c0105"
+    ],
+    "prompt_sha": "faefe5c83f0f",
+    "answer": "A player must be cautioned for removing their shirt during the celebration of a goal, even if the goal is disallowed.",
+    "llm_seconds": 3.59,
+    "model": "gemini-3.7-flash"
+  },
+  "q13|rerank": {
+    "qid": "q13",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0057",
+      "c0135",
+      "c0119"
+    ],
+    "prompt_sha": "18f48b109b14",
+    "answer": "A player must be cautioned, even if the goal is disallowed, for removing their shirt.",
+    "llm_seconds": 3.74,
+    "model": "gemini-3.7-flash"
+  },
+  "q14|baseline": {
+    "qid": "q14",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0037",
+      "c0049",
+      "c0066"
+    ],
+    "prompt_sha": "f41449c06184",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 2.8,
+    "model": "gemini-3.7-flash"
+  },
+  "q14|rerank": {
+    "qid": "q14",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0049",
+      "c0048",
+      "c0047"
+    ],
+    "prompt_sha": "40c159c5d3eb",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 2.56,
+    "model": "gemini-3.7-flash"
+  },
+  "q15|baseline": {
+    "qid": "q15",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0103",
+      "c0101",
+      "c0163"
+    ],
+    "prompt_sha": "da6ac6192933",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 11.69,
+    "model": "gemini-3.7-flash"
+  },
+  "q15|rerank": {
+    "qid": "q15",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0101",
+      "c0103",
+      "c0041"
+    ],
+    "prompt_sha": "0bcee678a39e",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 18.4,
+    "model": "gemini-3.7-flash"
   }
 }

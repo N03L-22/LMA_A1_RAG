@@ -26,7 +26,7 @@ recomputed on every run, so a fresh kernel always works.
 | `rag_reranking.ipynb` | The whole pipeline, in stages (setup, corpus, chunks, index, baseline, re-rank, analysis, latency) |
 | `data/config.json` | Models, chunk size, top-k and top-n, LLM settings, which sections of the PDF to use |
 | `data/chunks.jsonl` | The chunks, **frozen**: chunk ids are what the hand-labelled queries refer to |
-| `data/queries.json` | The test queries with their gold chunk and gold answer (4 failure-type queries, 2 controls, and 3 later ones: a miss for both pipelines, a not-covered question, a vocabulary gap) |
+| `data/queries.json` | The test queries with their gold chunk and gold answer (15 queries: 4 failure-type, 2 controls, and 9 later ones, some of which neither pipeline answers) |
 | `data/SOURCE.md` | Where the PDF is from and how it was cleaned. The PDF itself is not committed |
 | `results/` | Written by the notebook: `answers.json` (Answer 1 and 2 per query), `rank_shifts.csv`, `retrieval_metrics.csv` (Recall@3 and MRR), `latency.csv` |
 
