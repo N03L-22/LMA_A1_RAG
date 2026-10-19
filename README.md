@@ -40,7 +40,7 @@ recomputed on every run, so a fresh kernel always works.
 
 ## Chunking
 
-230 chunks, at most 160 words each, built from Laws 1–17, the notes and modifications, the VAR protocol
+230 chunks, about 160 words each (the longest has 187), built from Laws 1–17, the notes and modifications, the VAR protocol
 and the practical guidelines for match officials. Chunks never cross a Law boundary or a numbered
 heading. One chunk (Law 1, field markings) is 2 tokens over the Bi-Encoder limit, so its last word is
 not embedded.
