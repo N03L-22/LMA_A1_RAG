@@ -7,7 +7,7 @@
 | File | `Laws-of-the-Game-2024_25.pdf` |
 | Pages | 116 |
 | Where from | IFAB download server: https://downloads.theifab.com/downloads/laws-of-the-game-2024-25?l=en (English, effective 1 July 2024; the PDF's own cover page points to www.theifab.com). The IFAB has since published a newer edition, so this file is the 2024/25 one |
-| Committed to the repo? | No. The PDF is listed in `.gitignore` because it is not ours to redistribute. Download it from the publisher and place it in this folder |
+| Committed to the repo? | Yes, so the notebook runs as cloned. The PDF is the IFAB's publication, freely downloadable from the link above |
 
 ## Notes for chunking
 

@@ -12,7 +12,7 @@ chunks were selected.
 ## How to run
 
 1. Get a Gemini API key and put it in a file called `.env` next to the notebook: `GEMINI_API_KEY=...` (the file is gitignored).
-2. Download the PDF (see `data/SOURCE.md`) into `data/`.
+2. The PDF is already in `data/` (source in `data/SOURCE.md`).
 3. `python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
 4. Open `rag_reranking.ipynb` and **Restart and run all**.
 
@@ -27,7 +27,7 @@ recomputed on every run, so a fresh kernel always works.
 | `data/config.json` | Models, chunk size, top-k and top-n, LLM settings, which sections of the PDF to use |
 | `data/chunks.jsonl` | The chunks, **frozen**: chunk ids are what the hand-labelled queries refer to |
 | `data/queries.json` | The test queries with their gold chunk and gold answer (15 queries: 4 failure-type, 2 controls, and 9 later ones, some of which neither pipeline answers) |
-| `data/SOURCE.md` | Where the PDF is from and how it was cleaned. The PDF itself is not committed |
+| `data/SOURCE.md` | Where the PDF is from and how it was cleaned. The PDF itself is included |
 | `results/` | Written by the notebook: `answers.json` (Answer 1 and 2 per query), `rank_shifts.csv`, `retrieval_metrics.csv` (Recall@3 and MRR), `latency.csv` |
 
 ## Models
