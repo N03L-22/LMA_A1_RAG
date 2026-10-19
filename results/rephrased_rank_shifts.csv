@@ -1,0 +1,17 @@
+id,original,question,original_rank_pipeline1,original_rank_pipeline2,new_rank_pipeline1,new_rank_pipeline2,changed
+q7r1,q7,Can the referee caution or send off a player who is injured?,6,5,6,1,True
+q7r2,q7,Does an injured player get a card from the referee?,6,5,2,1,True
+q7r3,q7,Can a player who is hurt and leaving the pitch for treatment be shown a yellow or red card?,6,5,4,3,True
+q8r1,q8,Are players allowed to carry a bottle of water onto the field of play?,,,,,False
+q9r1,q9,Can an outfield player take the goalkeeper's place during a penalty shoot-out?,10,2,,,True
+q9r2,q9,Can the goalkeeper take a penalty kick in a shoot-out?,10,2,6,2,True
+q10r1,q10,Is there a limit on how many players of one team can be sent off?,2,1,1,1,True
+q10r2,q10,What happens if too many players of a team are sent off?,2,1,1,3,True
+q11r1,q11,Are team officials allowed on the field during the penalty shoot-out?,1,1,2,1,True
+q11r2,q11,Who is allowed on the pitch during a penalty shoot-out?,1,1,2,1,True
+q12r1,q12,Is it a foul if the ball hits an opponent and injures them?,,,,,False
+q12r2,q12,"If the ball hits and injures a player, is it an offence by the player who kicked it?",,,,,False
+q14r1,q14,Can a player leave the pitch to change their shirt and come back?,,,,,False
+q14r2,q14,What must a player do to change their kit during a match?,,,9,1,True
+q15r1,q15,Does a goal count if the ball enters the net and comes back out?,1,2,1,2,False
+q15r2,q15,"If the ball crosses the goal line and then returns to the field, is a goal given?",1,2,1,1,True

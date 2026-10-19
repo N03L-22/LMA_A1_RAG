@@ -1,5 +1,5 @@
 step,baseline_ms,rerank_ms
-Bi-Encoder retrieval (embed question + search 230 chunks),5.9,5.9
-Cross-Encoder re-ranking of the 10 candidates,0.0,93.5
-"Retrieval total (local, CPU)",5.9,99.4
+Bi-Encoder retrieval (embed question + search 230 chunks),8.6,8.6
+Cross-Encoder re-ranking of the 10 candidates,0.0,99.3
+"Retrieval total (local, CPU)",8.6,107.8
 "LLM call (Gemini API, median, network included)",4000.0,5130.0

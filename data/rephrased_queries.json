@@ -1,0 +1,98 @@
+[
+  {
+    "id": "q7r1",
+    "original": "q7",
+    "question": "Can the referee caution or send off a player who is injured?",
+    "ask_llm": true
+  },
+  {
+    "id": "q7r2",
+    "original": "q7",
+    "question": "Does an injured player get a card from the referee?",
+    "ask_llm": false
+  },
+  {
+    "id": "q7r3",
+    "original": "q7",
+    "question": "Can a player who is hurt and leaving the pitch for treatment be shown a yellow or red card?",
+    "ask_llm": false
+  },
+  {
+    "id": "q8r1",
+    "original": "q8",
+    "question": "Are players allowed to carry a bottle of water onto the field of play?",
+    "ask_llm": false
+  },
+  {
+    "id": "q9r1",
+    "original": "q9",
+    "question": "Can an outfield player take the goalkeeper's place during a penalty shoot-out?",
+    "ask_llm": false
+  },
+  {
+    "id": "q9r2",
+    "original": "q9",
+    "question": "Can the goalkeeper take a penalty kick in a shoot-out?",
+    "ask_llm": true
+  },
+  {
+    "id": "q10r1",
+    "original": "q10",
+    "question": "Is there a limit on how many players of one team can be sent off?",
+    "ask_llm": true
+  },
+  {
+    "id": "q10r2",
+    "original": "q10",
+    "question": "What happens if too many players of a team are sent off?",
+    "ask_llm": false
+  },
+  {
+    "id": "q11r1",
+    "original": "q11",
+    "question": "Are team officials allowed on the field during the penalty shoot-out?",
+    "ask_llm": true
+  },
+  {
+    "id": "q11r2",
+    "original": "q11",
+    "question": "Who is allowed on the pitch during a penalty shoot-out?",
+    "ask_llm": false
+  },
+  {
+    "id": "q12r1",
+    "original": "q12",
+    "question": "Is it a foul if the ball hits an opponent and injures them?",
+    "ask_llm": false
+  },
+  {
+    "id": "q12r2",
+    "original": "q12",
+    "question": "If the ball hits and injures a player, is it an offence by the player who kicked it?",
+    "ask_llm": false
+  },
+  {
+    "id": "q14r1",
+    "original": "q14",
+    "question": "Can a player leave the pitch to change their shirt and come back?",
+    "ask_llm": false
+  },
+  {
+    "id": "q14r2",
+    "original": "q14",
+    "question": "What must a player do to change their kit during a match?",
+    "ask_llm": true
+  },
+  {
+    "id": "q15r1",
+    "original": "q15",
+    "question": "Does a goal count if the ball enters the net and comes back out?",
+    "ask_llm": false
+  },
+  {
+    "id": "q15r2",
+    "original": "q15",
+    "question": "If the ball crosses the goal line and then returns to the field, is a goal given?",
+    "ask_llm": true
+  }
+]

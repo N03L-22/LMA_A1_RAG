@@ -1,0 +1,158 @@
+{
+  "q7r1|baseline": {
+    "qid": "q7r1",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0075",
+      "c0076",
+      "c0228"
+    ],
+    "prompt_sha": "f89f45494a8f",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 20.43,
+    "model": "gemini-3.7-flash"
+  },
+  "q7r1|rerank": {
+    "qid": "q7r1",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0077",
+      "c0228",
+      "c0075"
+    ],
+    "prompt_sha": "d175319f9c7a",
+    "answer": "Yes. The referee can caution or send off an injured player, but if the player has to leave the field of play for treatment, the card must be shown before the player leaves.",
+    "llm_seconds": 4.54,
+    "model": "gemini-3.7-flash"
+  },
+  "q9r2|baseline": {
+    "qid": "q9r2",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0107",
+      "c0160",
+      "c0155"
+    ],
+    "prompt_sha": "8f06e8d928c3",
+    "answer": "Yes, the context indicates that a goalkeeper can take a kick, noting that \"if the goalkeeper has already taken a kick, the replacement may not take a kick until the next round of kicks.\" However, a goalkeeper who is unable to continue and is replaced takes no further part and may not take a kick.",
+    "llm_seconds": 12.42,
+    "model": "gemini-3.7-flash"
+  },
+  "q9r2|rerank": {
+    "qid": "q9r2",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0107",
+      "c0108",
+      "c0156"
+    ],
+    "prompt_sha": "08829707bce3",
+    "answer": "Yes, a goalkeeper can take a kick in a penalty shoot-out, as the context indicates that a goalkeeper may have already taken a kick before being replaced. However, a replaced goalkeeper who is unable to continue takes no further part and may not take a kick.",
+    "llm_seconds": 6.45,
+    "model": "gemini-3.7-flash"
+  },
+  "q10r1|baseline": {
+    "qid": "q10r1",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0043",
+      "c0052",
+      "c0044"
+    ],
+    "prompt_sha": "08f7bf135881",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 13.23,
+    "model": "gemini-3.7-flash"
+  },
+  "q10r1|rerank": {
+    "qid": "q10r1",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0043",
+      "c0110",
+      "c0052"
+    ],
+    "prompt_sha": "cdcbaa6e38b4",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 11.28,
+    "model": "gemini-3.7-flash"
+  },
+  "q11r1|baseline": {
+    "qid": "q11r1",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0105",
+      "c0107",
+      "c0069"
+    ],
+    "prompt_sha": "b75cad1efa2e",
+    "answer": "No, team officials are not allowed on the field during penalties (penalty shoot-out). Only eligible players and match officials are permitted to remain on the field of play.",
+    "llm_seconds": 6.5,
+    "model": "gemini-3.7-flash"
+  },
+  "q11r1|rerank": {
+    "qid": "q11r1",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0107",
+      "c0105",
+      "c0053"
+    ],
+    "prompt_sha": "b9da462704b8",
+    "answer": "No, team officials are not allowed on the field during a penalty shoot-out. According to the context, only eligible players and match officials are permitted to remain on the field of play during penalties.",
+    "llm_seconds": 23.47,
+    "model": "gemini-3.7-flash"
+  },
+  "q14r2|baseline": {
+    "qid": "q14r2",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0001",
+      "c0062",
+      "c0060"
+    ],
+    "prompt_sha": "061817276f43",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 30.4,
+    "model": "gemini-3.7-flash"
+  },
+  "q14r2|rerank": {
+    "qid": "q14r2",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0069",
+      "c0059",
+      "c0047"
+    ],
+    "prompt_sha": "a61bba524c6c",
+    "answer": "According to the context, a player who leaves the field of play to correct or change equipment must have the equipment checked by a match official before being allowed to re-enter. Additionally, the player may only re-enter the field of play with the referee’s permission (which may be given during play). (Note: The context refers to \"equipment\" rather than \"kit.\")",
+    "llm_seconds": 19.77,
+    "model": "gemini-3.7-flash"
+  },
+  "q15r2|baseline": {
+    "qid": "q15r2",
+    "pipeline": "baseline",
+    "chunks": [
+      "c0103",
+      "c0119",
+      "c0033"
+    ],
+    "prompt_sha": "1e9d48137ba3",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 23.19,
+    "model": "gemini-3.7-flash"
+  },
+  "q15r2|rerank": {
+    "qid": "q15r2",
+    "pipeline": "rerank",
+    "chunks": [
+      "c0103",
+      "c0200",
+      "c0119"
+    ],
+    "prompt_sha": "e55bb99e41b8",
+    "answer": "The context does not contain the answer.",
+    "llm_seconds": 42.61,
+    "model": "gemini-3.7-flash"
+  }
+}
